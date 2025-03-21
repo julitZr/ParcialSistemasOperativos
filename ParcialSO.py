@@ -14,7 +14,7 @@ def best_fit(work_memory, req, index):
 
         # 🔹 Cambio: Reorganización de la condición lógica
         if dir_fin < req:
-            continue  # Sigue iterando si el bloque no tiene espacio suficiente
+            continue  
 
         if dir_fin < minor:
             BestPos = idx
